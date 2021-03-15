@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | What is Stream?" href="/book/What-is-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Writable Stream" href="/book/Writable-Stream.md"> next > </a>
+</div>
+
+***
+
 # Events Module
 
 As we said before, because some part of the stream module is implemented by using an event system, so we need to have a solid understanding of how the event system works.
@@ -336,3 +346,13 @@ So be careful about the order of adding listeners and emitting them. Because if 
 To fully grasp its workflow, you should just spend more time playing with it.
 
 At the time of implementing the stream module, you are completely free to choose to use this events module that we implemented together or the built-in one. You can also switch between them in the future, so don’t be hard about it.
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | What is Stream?" href="/book/What-is-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Writable Stream" href="/book/Writable-Stream.md"> next > </a>
+</div>

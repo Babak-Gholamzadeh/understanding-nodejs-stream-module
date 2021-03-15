@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | Preface" href="/book/Preface.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Events Module" href="/book/Events-Module.md"> next > </a>
+</div>
+
+***
+
 # What is Stream?
 
 Accessing some data without streaming is just like that we have to access the whole data at once, which has the disadvantage of time and space consuming.
@@ -41,3 +51,13 @@ And finally, if we create a method inside a `duplex` stream that acts as a bridg
 Thus, a stream object is simply just a container with a bunch of methods that help us to store and retrieve the data. Also, be aware that some part of this workflow is built on the event system.
 
 If these definitions seem a little vague to you, don’t worry, because that’s the main reason that we want to implement this module from scratch to make everything clear for ourselves.
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | Preface" href="/book/Preface.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Events Module" href="/book/Events-Module.md"> next > </a>
+</div>

@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | Writable Stream" href="/book/Writable-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Duplex Stream" href="/book/Duplex-Stream.md"> next > </a>
+</div>
+
+***
+
 # Readable Stream
 
 The `readable` stream is the next stream module that we are going to study. The general idea of the `readable` stream is similar to the `writable` stream but kind of in a reverse way.
@@ -1823,3 +1833,13 @@ createReadStream('./source.txt')
 ```
 
 > [Source code](https://github.com/Babak-Gholamzadeh/stream-module/tree/fb0ba5030a4ed34ad6b8caf245b4e00a1b8a3faa)
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | Writable Stream" href="/book/Writable-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Duplex Stream" href="/book/Duplex-Stream.md"> next > </a>
+</div>

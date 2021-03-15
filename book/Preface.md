@@ -1,3 +1,13 @@
+<div align="center">
+  <span> < prev </span>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | What is Stream?" href="/book/What-is-Stream.md"> next > </a>
+</div>
+
+***
+
 # Preface
 
 As you came here, you might have already heard about the stream or have some experience of using this module in Node.js (directly or indirectly). You also might have heard that there are some other modules like `http`, `fs`, `zlib`, `crypto`, `TCP sockets`, `process.stdout, process.stdin, 
@@ -14,3 +24,13 @@ In this manner, it will also make you familiar with the source code of Node.js c
 Before starting, keep in mind that for the reason of avoiding ambiguity, we even implement some side modules like `EventEmitter` and `BufferList` (which you will see later) from scratch that remain no magical or black-boxing behavior. But feel free to skip any part of the book that might confuse you or you can only skim them to just keep yourself on track. Do not let too much detail distract you from having an abstract view.
 
 > *Note: Throughout the book you will see that after the implementation of each small feature is finished, there is a link labeled **Source code**, which means that you can access the source code of the implementation till that point in a GitHub repository.*
+
+***
+
+<div align="center">
+  <span> < prev </span>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | What is Stream?" href="/book/What-is-Stream.md"> next > </a>
+</div>

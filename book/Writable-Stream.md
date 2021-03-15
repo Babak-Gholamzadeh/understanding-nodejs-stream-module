@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | Events Module" href="/book/Events-Module.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Readable Stream" href="/book/Readable-Stream.md"> next > </a>
+</div>
+
+***
+
 # Writable Stream
 
 As we talked already about the stream module, we understood that this module has two main parts which are `readable` and `writable` streams, and two other parts that are created from the combination of these two main parts which are called `duplex` and `transform`.
@@ -1164,3 +1174,13 @@ In the end, we create a function that returns a new instance of the `CreateWrite
 Now you can use the `createWriteStream` as an alternative to the `fs.createWriteStream` method.
 
 > [Source code](https://github.com/Babak-Gholamzadeh/stream-module/tree/05e92aaad3638b76ec803f26bd38e513e60a2e4d)
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | Events Module" href="/book/Events-Module.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Readable Stream" href="/book/Readable-Stream.md"> next > </a>
+</div>

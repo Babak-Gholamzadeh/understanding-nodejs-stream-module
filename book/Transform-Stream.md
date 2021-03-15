@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | Duplex Stream" href="/book/Duplex-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Conclusion" href="/book/Conclusion.md"> next > </a>
+</div>
+
+***
+
 # Transform Stream
 
 In the previous chapter, as we examined the `duplex` stream module, we figured out that this stream is just a wrapper of the combination of both `readable` and `writable` stream objects that hold them **separately**.
@@ -117,3 +127,13 @@ createReadStream('./source.txt')
 ```
 
 > [Source code](https://github.com/Babak-Gholamzadeh/stream-module/tree/8115715db05c98227144d9d4be36656244851bcb)
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | Duplex Stream" href="/book/Duplex-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Conclusion" href="/book/Conclusion.md"> next > </a>
+</div>

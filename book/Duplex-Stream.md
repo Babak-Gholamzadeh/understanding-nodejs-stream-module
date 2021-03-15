@@ -1,3 +1,13 @@
+<div align="center">
+  <a title="Previous Chapter | Readable Stream" href="/book/Readable-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Transform Stream" href="/book/Transform-Stream.md"> next > </a>
+</div>
+
+***
+
 # Duplex Stream
 
 At this moment that we have both the `writable` and `readable` streams, it’s time to combine them to create a new type of stream which is going to be called `duplex` stream.
@@ -128,3 +138,13 @@ duplexStream
 ```
 
 > [Source code](https://github.com/Babak-Gholamzadeh/stream-module/tree/f746d5f94a79edb29a89172f4bfc0b306af57c42)
+
+***
+
+<div align="center">
+  <a title="Previous Chapter | Readable Stream" href="/book/Readable-Stream.md"> < prev </a>
+  |
+  <a title="Go to the Table of Contents" href="/book#table-of-contents"> ToC </a>
+  |
+  <a title="Next Chapter | Transform Stream" href="/book/Transform-Stream.md"> next > </a>
+</div>
