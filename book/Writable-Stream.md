@@ -7,7 +7,7 @@ Thus we need to first understand the main parts and also for warming up, we are 
 The main responsibility of the `writable` stream – as you can see in the image below – is to get chunks of data at a time and pass them to a destination – the destination could be anything i.e. a file on the disk.
 
 <p align="center">
-  <img alt="writable stream" src="/assets/figure-09_writable-stream.png" />
+  <img alt="writable stream" src="/book/assets/figure-09_writable-stream.png" />
 </p>
 
 The `writable` stream module to perform its duties follows a simple workflow and is such that when a chunk of data is pushed to this module, it passes that to the destination.

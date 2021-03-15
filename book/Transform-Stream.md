@@ -5,7 +5,7 @@ In the previous chapter, as we examined the `duplex` stream module, we figured o
 The `transform` stream is another type of stream that is a subclass of the `duplex` stream. This stream only comes to create a bridge between those two separated streams inside of the `duplex` stream.
 
 <p align="center">
-  <img alt="transform stream" src="/assets/figure-06_transform-stream.png" />
+  <img alt="transform stream" src="/book/assets/figure-06_transform-stream.png" />
 </p>
 
 The main role of the `transform` stream is to act as a transferor in the pipeline.

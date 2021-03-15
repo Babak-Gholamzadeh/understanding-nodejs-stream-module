@@ -5,7 +5,7 @@ At this moment that we have both the `writable` and `readable` streams, it’s t
 As we talked about the `duplex` stream in the early chapter, we said that this stream is nothing more than a container that just simply holds a `writable` stream object in addition to a `readable` stream object completely separated and doesn’t have any more extra functionality.
 
 <p align="center">
-  <img alt="duplex stream" src="/assets/figure-05_duplex-stream.png" />
+  <img alt="duplex stream" src="/book/assets/figure-05_duplex-stream.png" />
 </p>
 
 The all the things that you can do with a `duplex` stream, you can do them without it by using a `readable` stream object along with a `writable` stream object.

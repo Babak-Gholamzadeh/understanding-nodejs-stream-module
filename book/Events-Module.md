@@ -249,7 +249,7 @@ But before going further, let’s review our code and investigate the workflow o
 When we set a listener via the `once` method, the list of the listeners for a particular event would be eventually something like this:
 
 <p align="center">
-  <img alt="listener list" src="/assets/figure-07_listener-list.png" />
+  <img alt="listener list" src="/book/assets/figure-07_listener-list.png" />
 </p>
 
 Till here everything is normal, but once the `emit` method wants to loop through the list and call each one by one when it runs the listener in index 1 (which is our listener that has been set via the `once` method), the listener would run the `removeListener` method to remove itself from this list.
@@ -259,7 +259,7 @@ As we remember, the `removeListener` uses the `splice` method to remove an item 
 The problem is here when the counter of the loop inside the `emit` method reach index 1 and call its listener and its listener removes itself from the list, and the entire list from that point to the end would be shifted one index to the left, afterward, the final list will end up like this:
 
 <p align="center">
-  <img alt="listener list" src="/assets/figure-08_listener-list.png" />
+  <img alt="listener list" src="/book/assets/figure-08_listener-list.png" />
 </p>
 
 At this point, the loop has no idea that it has been modified and thinks it’s done with index 1 and goes for index 2.

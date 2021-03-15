@@ -5,7 +5,7 @@ The `readable` stream is the next stream module that we are going to study. The 
 The `readable` stream has more responsibilities and methods than the `writable` and also has a method named `pipe` (which you might have heard before and we will discuss it later) that somehow is in charge of managing the `writable` stream either – this is one of the main reasons that first we examined the `writable` stream.
 
 <p align="center">
-  <img alt="readable stream" src="/assets/figure-10_readable-stream.png" />
+  <img alt="readable stream" src="/book/assets/figure-10_readable-stream.png" />
 </p>
 
 According to the image above it seems that the whole responsibility of the `readable` stream is to somehow make it possible to read chunk by chunk of the pushed data – which is pushed by the source - from a `readable` stream object.
@@ -85,7 +85,7 @@ If you don’t know about linked list structure, it is simply a list of nodes �
 A singly linked list is just a type of linked list that each node of it only points to the next node.
 
 <p align="center">
-  <img alt="singly linked list" src="/assets/figure-11_singly-linked-list.png" />
+  <img alt="singly linked list" src="/book/assets/figure-11_singly-linked-list.png" />
 </p>
 
 For traversing a linked list, we can’t access each node directly and we have to always start to traverse from the first node – it’s called `head` - and access the next node through the current node and so on.
@@ -916,13 +916,13 @@ To understand how we are going to use the bitwise operators for that operation, 
 Let’s go with the number of the previous example. So we have the number 26 for the `n` which is represented in binary as:
 
 <p align="center">
-  <img alt="binary 26" src="/assets/figure-12_binary-26.png" />
+  <img alt="binary 26" src="/book/assets/figure-12_binary-26.png" />
 </p>
 
 And the output that we need to reach from this input is 32 that in binary is:
 
 <p align="center">
-  <img alt="binary 32" src="/assets/figure-13_binary-32.png" />
+  <img alt="binary 32" src="/book/assets/figure-13_binary-32.png" />
 </p>
 
 So as you noticed, by making the bit after the leftmost bit of the input to `1` and make all the bits from right to the leftmost bit to `0`, we can reach the desired output from any input.
@@ -932,7 +932,7 @@ But to implement this algorithm, it would be simpler first we reach from the inp
 Thus, the output minus `1` is equal to:
 
 <p align="center">
-  <img alt="binary 31" src="/assets/figure-14_binary-31.png" />
+  <img alt="binary 31" src="/book/assets/figure-14_binary-31.png" />
 </p>
 
 Now it seems more achievable.
@@ -940,7 +940,7 @@ Now it seems more achievable.
 In order to reach from any input to this output we just need to find out their common bit, which is the leftmost bit that we sure it always equals `1`.
 
 <p align="center">
-  <img alt="binary 1x" src="/assets/figure-15_binary-1x.png" />
+  <img alt="binary 1x" src="/book/assets/figure-15_binary-1x.png" />
 </p>
 
 Regardless of the other bits, for making all of the `x` bits to be equal to `1`, we can use `|` (aka `OR`) operator with this current value and the value that is shifted to the right one time as its operands.
@@ -950,7 +950,7 @@ n |= n >>> 1;
 ```
 
 <p align="center">
-  <img alt="binary 11x" src="/assets/figure-16_binary-11x.png" />
+  <img alt="binary 11x" src="/book/assets/figure-16_binary-11x.png" />
 </p>
 
 After that, repeat this operation with shifting one time, is kind of wasting time. Because at this point we sure that we have double `1`s next to each other. So for the optimizing purpose continue with value `2` that causes to have four value `1`s next to each other and so on.
