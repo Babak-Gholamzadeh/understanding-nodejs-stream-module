@@ -1,5 +1,11 @@
 # Understanding Node.js stream module by implementing it from scratch
 
+<p align="center">
+  <a href="https://leanpub.com/understanding-nodejs-stream-module/">
+    <img src="/book/assets/book-cover.png" width="35%"/>
+  </a>
+</p>
+
 ### Table of Contents
 
 - [Chapter 0: Preface](/book/Preface.md)
