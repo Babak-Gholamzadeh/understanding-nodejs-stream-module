@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://leanpub.com/understanding-nodejs-stream-module/">
-    <img src="/book/assets/book-cover.png" width="35%"/>
+    <img src="/book/assets/book-cover.png" width="35%" align="right"/>
   </a>
 </p>
 
